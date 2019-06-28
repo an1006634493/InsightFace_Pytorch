@@ -163,6 +163,8 @@ python train.py -b [batch_size] -lr [learning rate] -e [epochs]
 
 5. Maybe the video generating process has some bug. Just use `frame` to visualize performance. Don't use `cv2.imshow` as it may lead to crash, use `cv2.imwrite` instead and open it with other softwares.
 
+6. Except your detected faces, don't put any other folders under `/data/facebank`, but videos can.
+
 ## PS
 
 - Email : an_shengnan@foxmail.com
